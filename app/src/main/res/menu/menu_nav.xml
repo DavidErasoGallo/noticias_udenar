@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="Udenar">
+        <menu>
+            <item
+                android:id="@+id/principal"
+                android:title="Pagina Principal"
+                android:icon="@drawable/principal"
+                >
+            </item>
+
+            <item
+                android:id="@+id/biblioteca"
+                android:title="Biblioteca"
+                android:icon="@drawable/biblioteca"
+                >
+            </item>
+
+            <item
+                android:id="@+id/vipri"
+                android:title="Vipri"
+                android:icon="@drawable/vipri"
+                >
+            </item>
+
+            <item
+                android:id="@+id/matriculas"
+                android:title="Sistema de Matriculas"
+                android:icon="@drawable/matriculas"
+                >
+            </item>
+
+        </menu>
+
+    </item>
+
+
+    <item
+        android:title="Consulta">
+        <menu>
+            <item
+                android:id="@+id/horarios"
+                android:title="Horarios"
+                android:icon="@drawable/horarios"
+                >
+            </item>
+
+            <item
+                android:id="@+id/notas"
+                android:title="Notas"
+                android:icon="@drawable/notas"
+                >
+            </item>
+
+            <item
+                android:id="@+id/competencias"
+                android:title="Competencias Basicas"
+                android:icon="@drawable/competencias"
+                >
+            </item>
+        </menu>
+
+    </item>
+
+
+    <item
+        android:title="Noticias Udenar">
+        <menu>
+
+            <item
+                android:id="@+id/acerca_de"
+                android:title="Acerca De.."
+                android:icon="@drawable/acerca_de"/>
+
+
+
+        </menu>
+
+    </item>
+
+</menu>
